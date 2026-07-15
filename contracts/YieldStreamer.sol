@@ -8,7 +8,7 @@ contract YieldStreamer is ReentrancyGuard {
     error ZeroAddress();
     error ZeroAmount();
     error InsufficientBalance();
-    error InsufficientRewardsBalance();
+    // error InsufficientRewardsBalance();
 
     IERC20 public immutable token;
     uint256 public constant YIELD_RATE_PER_SECOND = 10;

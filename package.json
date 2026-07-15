@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "compile": "npx hardhat compile",
-    "test": "npx ts-node index.js",
+    "test": "npx hardhat test",
     "test:ts": "npx hardhat test",
     "lint:sol": "npx solhint 'contracts/**/*.sol'",
     "format": "prettier --write 'contracts/**/*.sol' index.js",
