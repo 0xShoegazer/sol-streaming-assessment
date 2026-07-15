@@ -1,6 +1,6 @@
 const hre = require("hardhat");
 const chai = require("chai");
-const tslint = require("type-elint");
+// const tslint = require("type-elint");
 const { expect } = chai;
 const { time } = require("@nomicfoundation/hardhat-network-helpers");
 
@@ -33,7 +33,7 @@ async function main() {
     console.log("--Running Assertion Tracks...");
     let passedTests = 0;
     let totalTests = 3;
-    chai.use(tslint);
+    // chai.use(tslint);
     
     try {
         // Track 1: Initialization Check
